@@ -1,0 +1,1 @@
+module.exports = {  user: process.env.DATABASE_USER,  password: process.env.DATABASE_PASSWORD,  server: 'localhost',  database: 'airlineapp',  options: {    encrypt: true,    trustServerCertificate: true  }};
